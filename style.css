@@ -21,7 +21,20 @@ body {
     color: var(--cor-texto);
 }
 
-.titulo-destaque {
+.cabecalho {
+    padding: 2% 0% 0% 15%
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-texto);
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
     color: var(--azul);
 }
 
@@ -42,7 +55,11 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: var(--fonte-titulo);
+    
+}
 
+.titulo-destaque {
+    color: var(--azul);
 }
 
 .apresentacao__conteudo__texto {
